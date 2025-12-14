@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+# Pemetaan Wilayah Prioritas Pembangunan Kesehatan Indonesia
 
-A simple Streamlit app template for you to modify!
+Analisis menggunakan Algoritma K-Means Clustering pada Data BPS.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## Variabel
+- Angka Harapan Hidup (AHH)
+- Akses Sanitasi Layak
+- Keluhan Kesehatan
 
-### How to run it on your own machine
+## Metode
+- StandardScaler
+- K-Means Clustering (k = 3)
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Cara Menjalankan
+```bash
+streamlit run FP.py
